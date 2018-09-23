@@ -1,0 +1,157 @@
+body{
+font-family: sans-serif;
+font-size: 20px;
+}
+
+img{
+  width: 100%;
+}
+
+.material-icons.md-36{
+  font-size: 50px;
+}
+
+main,
+section{
+  max-height: auto;
+  max-width: auto;
+  margin-left: 175px;
+}
+
+.about h2,
+.about h3,
+.edu h2{
+  font-family:"Indie Flower"
+}
+
+.about,
+.edu{
+  color: #000;
+  background-size: cover;
+  background: #FFFFFF;
+}
+
+/* NAVIGATION */
+nav{
+  position: fixed;
+  background: #222;
+  overflow: none;
+  z-index: 1;
+  text-align: center;
+  padding: 0;
+  margin-top: 10%;
+}
+
+nav a {
+  display: block;
+  padding: 15px 0;
+  color: white;
+  transition: all 0.35s;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+}
+ 
+nav img{
+  margin-bottom: -3px;
+}
+
+nav a:hover{
+  background: #FF4500;
+}
+
+nav img{
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  max-width: 100px;
+}
+
+
+/* HEADER */
+header{
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: grey 5px solid;
+}
+
+header h1{
+  font-family: "Indie Flower";
+  font-weight: bold;
+  font-size: 2.7cm;
+  letter-spacing: 4px;
+  display: inline;
+}
+
+header p{
+  font-weight: 300;
+  font-size: 1cm;
+  letter-spacing: 4px;
+  color: #b2b2b2;
+}
+
+  /* ABOUT */
+.about{
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.about h2, {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin: 50px 0 0 0 ;
+}
+
+  /* EDUCATION */
+.edu{
+  text-align: center;
+}
+
+.edu h2{
+  text-align: left;
+}
+
+.edu-expl h4{
+  margin-bottom: 0;
+  margin-top: -3px;
+}
+
+.edu-expl p{
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.edu-expl img{
+  width: auto;
+  height: 150px;
+}
+
+label{
+  color: #b2b2b2;
+}
+
+/* FOOTER */
+footer{
+  border-top: grey 5px solid;
+  background: #000
+}
+
+footer p{
+  color: white;
+  font-size: 0.75em;
+  text-align: right;
+}
+
+.top-bar{
+  text-align: center;
+  width: 100%;
+}
+
+.top-bar a{
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  display: inline-block;
+}
